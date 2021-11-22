@@ -44,7 +44,7 @@ function Box() {
     }, []);
 
     return (
-        <div className="main" style={{height:'1000px'}}>
+        <div className="main" style={{height:'1500px', position: 'relative'}}>
             <div className="moveBox" style={style}>
             </div>
         </div>
